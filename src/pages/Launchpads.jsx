@@ -16,7 +16,7 @@ export default function Launchpads() {
   return (
     <>
     <h1 className="text-5xl font-bold flex justify-center sm:p-11 p-5 text-slate-200">SpaceX Launchpads</h1>
-      <div className="sm:grid sm:grid-cols-3 gap-8 mx-8">
+      <div className="sm:grid sm:grid-cols-3 gap-8 sm:mx-8 mx-4">
       {data.map((res) => {
         const { name, details, status, id, launches,images} = res;
         
